@@ -1,0 +1,104 @@
+#footer_area{
+  padding-top:  84.5px;
+  padding-bottom: 65px;
+  border-top: 0.5px solid #ced0da;
+  border-bottom: 0.5px solid #ced0da;
+  .main_footer{
+    overflow: hidden;
+    display: inline-block;
+    .inner_footer{
+      padding: 1%;
+      margin: 0 1% 10px;
+      width: 25%;
+      float: left;
+      text-align: left;
+      &:nth-last-child(4){
+        margin-left: 0;
+        padding-left: 0;
+      }
+      &:nth-last-child(3){
+        width: 17%;
+      }
+      &:nth-last-child(2){
+        width: 17%;
+      }
+      &:nth-last-child(1){
+        width: 35%;
+        margin-right: 0px;
+        padding-right: 0px;
+      }
+      p{
+        margin:24px 0;
+        color:#272343;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+       }
+       svg{
+        color: #636270;
+        margin-right: 10px;
+        &:hover{
+        color: #007580;
+        }
+       }
+       a{
+        margin: 0;
+        padding: 0;
+       }
+       h5{
+        color: #9A9CAA;
+        font-size: 14px;
+        font-weight: 500;
+       }
+       ul{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        li a{
+          margin: 0;
+          padding: 0;
+          font-size:16px;
+          font-weight: 500;
+          color: #000;
+          &:hover{
+            color: #029FAE;
+            text-decoration: underline;
+          }
+        }
+      }
+      input{
+        width: 286px;
+        height: 46px;
+        padding: 15px 0 15px 20px;
+        border-radius: 8px;
+        color: #9A9CAA;
+        border: 1px solid #9A9CAA;
+      }
+      [type=submit] {
+        margin:10px 0 0 0px;
+        width: 127px;
+        height: 46px;
+        padding: 0;
+        background-color: #029FAE;
+        color:#fff;
+        &:hover {
+          background-color: #4f868b;
+          transition: .3s;
+          }
+      }
+     
+    }
+  }
+}
+.mobile_social{
+  display: none;
+  .inner_mob_social{
+  svg{
+    color: #636270;
+    margin-right: 10px;
+    &:hover{
+    color: #007580;
+    }
+   }
+ }
+}

@@ -1,0 +1,33 @@
+// COMMON CSS
+*{
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+  
+  }
+  img{
+    border: none;
+  }
+  body{
+    font-family: 'Inter', sans-serif;
+  }
+  .icon-btn{
+    width: 52px;
+    height: 52px;
+    top: 50%;
+    border-radius: 50%;
+    background:white;
+    justify-content: center;
+    align-items: center;
+    color:blue;
+    transition: all .3s ease-in-out;
+    &:hover{
+      background:#007580 ;
+      color: white;
+    }
+
+  }

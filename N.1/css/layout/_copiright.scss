@@ -1,0 +1,54 @@
+#copyright_area{
+  background: #fff;
+  padding: 27px 0;
+  .inner_copyright{
+    overflow: hidden;
+    p{
+      margin: 0;
+      padding: 0;
+      color: #9A9CAA;
+      font-size: 14px;
+      a{
+        color: #9A9CAA;
+        &:hover{
+          color: #0b2df0;
+         }
+      }
+     }
+    .left_copyright{
+     float: left;
+     width: 60%;
+     span{
+      color: #000;
+      }
+    }
+    .right_copyright{
+     float: right;
+     text-align: right;
+     width: 40%;
+     svg{
+      color: #9A9CAA;
+      }
+     .svg1{  
+      &:hover{
+      color: #f0630b;
+       }
+      }
+      .svg2{
+       &:hover{
+        color: #0b2df0;
+       }
+      }
+      .svg3{
+       &:hover{
+        color: #66625f;
+       }
+      }
+      .svg4{
+        &:hover{
+          color: #f0ce0b;
+        }
+      }
+    }
+  }
+}

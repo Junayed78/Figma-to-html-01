@@ -1,0 +1,357 @@
+/*tab css*/
+@media only screen and (min-width:200px) and (max-width:991px){
+  .header_area #main_header .main_header_common .search_area input
+   {
+    width: 232px;
+   }
+  .header_area #main_header .main_header_common .tab-ras
+   {
+    width: auto;
+   }
+   nav .nav_contant .all_catagori 
+   {
+    margin-right: 0px;
+   }
+  .header_area .nav_contant .all_catagori ul li a
+   {
+    width: 170px;
+    padding: 10px 7px 10px 14px;
+   }
+  .hero_area
+   {
+    background-size: contain;
+    text-align: center;
+   }
+   .hero_area .inner_hero .left_hero p 
+   {
+    padding-top: 0px;
+   }
+   .hero_area .inner_hero .left_hero h1
+   {
+    font-size: 32px;
+   }
+  .hero_area .inner_hero .Right_hero 
+   {
+    display: none;
+   }
+   .carousel-indicators [data-bs-target]
+   {
+    display:none;
+   }
+   .brend_logo_area .inner_logo
+   {
+    flex-direction: column;
+   }
+   #testimonial_area  
+   {
+    padding-top:30px;
+   }
+}
+@media only screen and (min-width:200px) and (max-width:758px){
+  .header_area #top_header p, .header_area .top_heater_right 
+  {
+   width: 100%;
+   text-align: center;
+  }
+  .header_area #main_header .main_header_common
+  {
+   flex-direction: column;
+  }
+  .header_area #main_header .main_header_common .search_area 
+  {
+   margin: 20px 0;
+  }
+}
+@media only screen and (min-width:200px) and (max-width:580px){
+  #form_area 
+  {
+   width: 416px;
+  }
+  .feature_area .inner_feature 
+  {
+   flex-direction: column;
+  }
+ .feature_area .inner_feature .quick_feature 
+ {
+  padding-top: 23px;
+ }
+  #form_area .inner_form_area .form_area_main input 
+  {
+   width: 337px;
+  }
+  #form_area .inner_form_area .form_area_main svg 
+  {
+   right: 141px
+  }
+	#copyright_area .inner_copyright .left_copyright 
+  {
+   float: none;
+   width: 100%;
+   text-align: center;
+   padding-bottom: 15px;
+  }
+	#copyright_area .inner_copyright .right_copyright 
+  {
+   float: none;
+   text-align: center;
+   width: 100%;
+  }
+ #footer_area
+ {
+  padding-top:  40.5px;
+  padding-bottom: 30px;
+ }
+ #footer_area .main_footer .inner_footer:nth-last-child(4) 
+ {
+  width: 100%;
+  text-align:center;
+ }
+ #footer_area .main_footer .inner_footer:nth-last-child(3) 
+ {
+  width: 53%;
+  text-align: left;
+ }
+ #footer_area .main_footer .inner_footer:nth-last-child(2) 
+ {
+  width: 45%;
+  margin: 0;
+  padding: 0;
+ }
+ #footer_area .main_footer .inner_footer:nth-last-child(1) 
+ {
+  width: 100%;
+ }
+ #footer_area .main_footer .inner_footer input 
+ {
+  width: 243px;
+ }
+ #footer_area .main_footer .inner_footer a svg
+ {
+  display: none;
+ }
+ .mobile_social
+ {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  text-align:center;
+ }
+ .mobile_social a
+ {
+  padding-right: 20px;
+ }
+}
+
+  /*mobile css*/ 
+@media only screen and (min-width:200px) and (max-width:480px){
+  .h3, h3 
+  {
+   font-size: calc(1.3rem + .6vw);
+   text-align: center;
+   width: 100%;
+  }
+
+  .header_area #top_header p,.header_area .top_heater_right
+  {
+   text-align: center;
+  }
+  .hero_area .inner_hero 
+  {
+   padding: 0;
+  }
+  #feature_product 
+  {
+   padding-top: 20px;
+  }
+ .feature_area .inner_feature
+ {
+  margin-top: -10.5px; 
+ }
+ #feature_product .section_header h3 
+ {
+  font-size: 27px;
+ }
+ #top_categories 
+ {
+  margin-top: 10px;
+ }
+ .slick-prev 
+ {
+  left: 0;
+ }
+ .h3, h3 
+ {
+  font-size: 20px;
+  width:100%;
+  text-align:center;
+ }
+ #feature_product .section_header h3 
+ {
+	font-size:28px;
+ }
+ .header_area #main_header .main_header_common 
+ {
+  flex-direction: column;
+ }
+ .header_area #main_header .main_header_common .search_area
+ {
+  margin-top: 10px;
+ }
+ .header_area #main_header .main_header_common .button_area 
+ {
+  margin-top: 20px;
+ }
+ .hero_area
+ {
+  padding: 40px 0 60px;
+ }
+ .hero_area .inner_hero 
+ {   
+  padding: 0;
+ }
+ .hero_area .inner_hero .slider-arrows 
+ {
+	width: calc(100% + 107px);
+ }
+ .hero_area .inner_hero .slider-arrows .left-slider 
+ {
+	margin-left: 97px;
+ }
+ .hero_area .inner_hero .left_hero .btn 
+ {
+	padding: 14px 15px;
+ }
+ .hero_area .inner_hero .left_hero .btn svg 
+ {
+  margin-left: 4px;
+ }
+ .feature_area .inner_feature
+ {
+  flex-direction: column;
+  margin-top: 20px;
+ }
+ .brend_logo_area .inner_logo a
+ {
+  padding-left: 0;
+ }
+ 
+ #our_product
+ {
+  padding: 0px 0;
+ }
+ #our_product .product_item 
+ {
+  margin: 10px 0;
+ }
+ #our_product .product_filter [type=button] 
+ {
+  padding: 4px;
+  font-size: 13px;
+  margin-right: 5px;
+ }
+ #our_product .product_filter 
+ {
+  margin-bottom: 16px;
+ }
+ #testimonial_area .section_header h3
+ {
+  font-size: 20px;
+ }
+ #testimonial_area .testimonial_slider .category_item {
+  margin-bottom: 10px;
+ }
+ #resent_product
+ {
+  padding:20px 0;
+ }
+ #footer_area{
+  padding-top:  40.5px;
+  padding-bottom: 30px;
+ }
+ #footer_area .main_footer .inner_footer:nth-last-child(4) {
+  width: 100%;
+  text-align:center;
+ }
+ #footer_area .main_footer .inner_footer:nth-last-child(3) {
+  width: 53%;
+  text-align: left;
+ }
+ #footer_area .main_footer .inner_footer:nth-last-child(2) {
+  width: 45%;
+  margin: 0;
+  padding: 0;
+ }
+ #footer_area .main_footer .inner_footer:nth-last-child(1) 
+ {
+  width: 100%;
+ }
+ #footer_area .main_footer .inner_footer input
+ {
+  width: 243px;
+ }
+ #footer_area .main_footer .inner_footer a svg{
+  display: none;
+ }
+ .mobile_social
+ {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+ }
+ .mobile_social a
+ {
+  padding-right: 20px;
+ }
+ #copyright_area .inner_copyright .left_copyright 
+ {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
+ }
+ #copyright_area .inner_copyright .right_copyright 
+ {
+  text-align: center;
+  width: 100%;
+ }
+ #singing_area .inner_singing_area .section_header_singing 
+ {
+  padding-bottom: 15px;
+  padding-right:32px;
+ }
+ #form_area 
+ {
+  width: 353px;
+  margin: 40px auto;
+ }
+ #form_area .inner_form_area .form_area_main input
+ {
+  width: 283px;
+  margin: 0 33px 10px 23px;
+  padding-right: 30px;
+ }
+ #form_area .inner_form_area .form_area_main a 
+ {
+  padding-right: 14px;
+  margin-right:17px;
+ }
+ #form_area .inner_form_area .form_area_main .button 
+ {
+  width: 281px;
+ }
+ #form_area .inner_form_area .form_area_main svg
+ {
+  right: 115px;
+ }
+}
+@media only screen and (min-width:200px) and (max-width:375px){
+ #our_product .product_filter [type=button] 
+ {
+  padding: 3px;
+  font-size: 9px;
+	margin-right:1px;
+ }
+ .brend_logo_area 
+ {
+  display:none;
+ }
+}

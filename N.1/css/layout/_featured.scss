@@ -1,0 +1,100 @@
+#feature_product{
+  width: 100%;
+  .section_header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    h3{
+      font-size:32px;
+      margin:0;
+      font-weight:600;
+      color:#272343;
+     }
+    .section_arrow [type=button]{
+      width: 44px;
+      height: 44px;
+      border: none;
+      border-radius:50%;
+      color: #272343;
+      &:hover{
+        background:#007580;
+        color:white;
+      }
+      &:nth-last-child(1){
+        margin-left:18px
+      }
+    }
+  }
+  .products{
+    .product_item{
+      margin-top:30px;
+      margin-right: 10px;
+      .image{
+        width: 100%;
+        border-radius: 4px;
+        position: relative;
+        img{
+          width: 100%;
+          /*object-fit: cover;*/
+        }
+        .label{
+          position: absolute;
+          padding: 5px 10px;
+          border-radius: 4px;
+          background-color: #01AD5A;
+          display: inline-block;
+          top: 20px;
+          left: 20px;
+        }
+        .icon-button{
+          position: absolute;
+          height: 44px;
+          width: 44px;
+          background-color: #fff;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 8px;
+          top: 20px;
+          right: 20px;
+          color: #000;
+          &:hover{
+            background-color: #029FAE;
+            color: #fff;
+          }
+        }
+      }
+      .contant{
+        display: flex;
+        margin-top: 15px;
+        align-items: center;
+        justify-content: space-between;
+        .info a{
+          padding: 0;
+          margin-bottom: 5px;
+          color:#272343;
+          font-size: 16px;
+          font-weight: 400;
+          display: flex;
+          &:hover {
+          color: #029FAE;
+          }
+        }
+      }
+      .cart{
+        height: 44px;
+        width: 44px;
+        color:#272343;
+        align-items: center;
+        margin-top: -28px;
+        padding: 10px;
+        border-radius: 8px;
+        &:hover{
+          background-color: #029FAE;
+          color: #fff;
+        }
+      }
+      
+    }
+  }
+}

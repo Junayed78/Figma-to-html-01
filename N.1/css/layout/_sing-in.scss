@@ -1,0 +1,120 @@
+#singing_area{ 
+  background-color: #F0F2F3;
+  margin: 0 1%;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px; 
+  .inner_singing_area{
+    overflow: hidden;
+    .section_header_singing{
+      padding-bottom: 50px;
+      p{
+        font-size: 14px;
+        font-weight: 400;
+        color:#636270;
+       }
+      span{
+       font-size: 14px;
+      font-weight: 500;
+      color: #272343;
+       }
+    }
+  }
+}
+#form_area{
+  width: 648px;
+  border-radius: 12px;
+  background-color: #fff;
+  box-shadow: 0 0 38px rgba(39, 35, 67, 0.12);
+  margin: 130px auto;
+  .inner_form_area{
+  .form_area_main{   
+  overflow: hidden;
+  position: relative;
+  h3{
+    color: #272343;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+    padding: 32px 0;
+    margin: 0;
+  }
+  input{
+    background-color: #F0F2F3;
+    color: #9A9CAA;
+    width: 584px;
+    height: 50px;
+    border: none;
+    border-radius: 8px;
+    margin: 0 33px 10px 33px;
+    padding: 17px ;
+    padding-right: 54px;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  [type=submit]{
+    padding: 14px;
+    color: #fff;
+    background-color: turquoise;
+    transition: 0.3s;
+    &:hover{
+      background-color:#029FAE;
+    }
+  }
+  svg{
+    position: absolute;
+    cursor: pointer;
+    bottom: 74px; right:250px; color:#fff;
+  }
+  [type=checkbox]{
+    color: #e5e5e5;
+    width: 16px;
+    height: 16px;
+    margin-right:8px;
+  }
+  a{
+    color: #9A9CAA;
+    padding-right: 35px;
+   &:hover{
+    color: #0a80ee;
+    }
+
+   }
+   .from1{
+    display: flex;
+    justify-content: space-between;
+  }
+  .button{
+    width: 584px;
+    height: 52px;
+    background-color: #029FAE;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    margin: 20px 33px 20px 33px;
+    svg{
+      color: #fff;
+      position: static;
+    }
+  }
+  .sin_up{
+    text-align: center;
+    padding-bottom: 24px;
+    p{
+      margin: 0;
+      padding: 0;
+      display: inline-block;
+      color: #272343;
+      font-size: 14px;
+      font-weight: 400;
+    }
+    a{
+      margin: 0;
+      padding: 0;
+      font-size: 14px;
+      font-weight: 500;
+      color:#007580;
+    }
+  }
+  }
+ }
+}

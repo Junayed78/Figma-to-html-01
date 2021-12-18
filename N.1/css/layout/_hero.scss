@@ -1,0 +1,124 @@
+/*hero css*/
+ .hero_area{
+  background:#F0F2F3;
+  margin-left: 2%;
+  padding: 80px 0 120px;
+  border-bottom-left-radius: 48px;
+  border-bottom-right-radius: 48px;
+  background-position: top;
+  background-repeat: no-repeat;
+  .inner_hero{
+  display: flex;
+  position: relative;
+  padding: 0 100px;
+   .slider-arrows{
+    
+    .icon-btn{
+      width: 52px;
+      height: 52px;
+      border-radius: 50%;
+      background:white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color:blue;
+      transition: all .3s ease-in-out;
+      &:hover{
+        background:#007580 ;
+        color: white;
+      }
+
+    }
+    .left-slider{
+      margin-left: 86px;
+    }
+  }
+  .left_hero{
+    align-items: center;
+    p{
+      font-size: 14px;
+      font-weight: normal;
+      color:#272343;
+      margin: 0;
+      padding-top: 88px;
+      letter-spacing: 3px;
+    }
+    h1{
+      font-size: 68px;
+      font-weight: bold;
+      color:#272343;
+      margin: 0;
+      margin-bottom: 24px;
+      text-transform: capitalize;
+    }
+    .btn{
+      background:#029FAE ;
+      font-size: 16px;
+      font-weight: 500;
+      color: #fff;
+      padding: 14px 24px;
+      border-radius: 8px;
+      transition: all .3s ease-in-out;
+      &:hover{
+        background: #7ba0a3;
+        color: #F0F2F3;
+      }
+      svg{
+        margin-left: 20px;
+        &:hover{
+          background: #7ba0a3;
+          color: #F0F2F3;
+        }
+       }
+    }
+  }
+  .Right_hero{
+      position: relative;
+      max-width: max-content;
+      .info{
+        position: absolute;
+        top: 28px;
+        right:18px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 140px;
+        height: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        .amount{
+          font-size:36px;
+          font-weight: bold;
+          margin-bottom: 2px;
+          color: #f05c52;
+        }
+        .text{
+          color: #000;
+          font-size: 14px;
+          font-weight: 500;
+        }
+      }
+  }
+  
+  }
+  button{
+    .icon-btn{
+      width: 52px;
+      height: 52px;
+      top: 50%;
+      border-radius: 50%;
+      background:white;
+      justify-content: center;
+      align-items: center;
+      color:blue;
+      transition: all .3s ease-in-out;
+      &:hover{
+        background:#007580 ;
+        color: white;
+      }
+  
+    }
+  }
+ }

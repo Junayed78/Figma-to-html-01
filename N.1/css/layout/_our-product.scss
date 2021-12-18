@@ -1,0 +1,131 @@
+#our_product{
+  padding: 40px 0;
+  .section_header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    h3{
+      font-size:32px;
+      margin:0;
+      font-weight:600;
+      color:#272343;
+      text-align: center;
+    }
+    .section_arrow [type=button]{
+      width: 44px;
+      height: 44px;
+      border: none;
+      border-radius:50%;
+      color: #272343;
+      &:hover{
+        background:#007580;
+        color:white;
+      }
+      &:nth-last-child(1){
+        margin-left:18px
+      }
+    }
+  }
+  .product_filter{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    [type=button]{
+      padding: 8px;
+      font-size: 16px;
+      background-color: transparent;
+      color: #9a9a99;
+      font-weight: 500px;
+      margin-right: 8px;
+      border: transparent;
+      border-bottom: 2px solid transparent;
+      text-transform: uppercase;
+      &:hover{
+        border-bottom: 2px solid #038053;
+        color: #000;
+        }
+        
+    }
+    .active{
+      border-color: #038053;
+      color: #000;
+    }
+  }
+  .product_item{
+    margin:30px 0;
+    .image{
+      width: 100%;
+      border-radius: 8px;
+      position: relative;
+      .label{
+        position: absolute;
+        padding: 5px 10px;
+        border-radius: 4px;
+        background-color: #01AD5A;
+        display: inline-block;
+        top: 20px;
+        left: 20px;
+      }
+      img{
+        width: 100%;
+      }
+      .icon_button{
+        position: absolute;
+        height: 44px;
+        width: 44px;
+        background-color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 8px;
+        top: 20px;
+        right: 20px;
+        color: #000;
+        &:hover{
+          background-color: #029FAE;
+          color: #fff;
+        }
+      }
+    }
+    .contant{
+      display: flex;
+      margin-top: 15px;
+      align-items: center;
+      justify-content: space-between;
+      .info {
+      a{
+        padding: 0;
+        margin-bottom: 5px;
+        color:#272343;
+        font-size: 16px;
+        font-weight: 400;
+        display: inline-block;
+        &:hover {
+          color: #029FAE;
+        }
+      }
+      p{
+        margin: 0;
+        font-size: 18px;
+        font-family: 600;
+      }
+    }
+    }
+    .cart{
+      height: 44px;
+      width: 44px;
+      color:#272343;
+      align-items: center;
+      margin-top: -28px;
+      padding: 10px;
+      border-radius: 8px;
+      &:hover{
+        background-color: #029FAE;
+        color: #fff;
+      }
+    }
+  }
+}

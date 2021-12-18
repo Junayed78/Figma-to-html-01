@@ -1,0 +1,16 @@
+/*BREDB LOGO*/
+.brend_logo_area{
+  width: 100%;
+  background-color: #fff;
+  .inner_logo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  a{
+  padding-left: 35px;
+  &:nth-child(1){
+    padding-left: 0;
+  }
+  }
+  }
+}
